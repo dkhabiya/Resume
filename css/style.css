@@ -1,0 +1,322 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  padding:0;
+  margin:0;
+  font-family: 'Tahoma';
+  font-weight: bold;
+}
+
+nav {
+  box-sizing: border-box;
+}
+
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+}
+
+.nav__list {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #616161;
+  padding: 10px;
+  font-size: 12px;
+  margin: 0;
+  display: block;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  color: #212121;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.rule {
+  width: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  color: #101D42;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-size: 24px;
+  color: #FF7F00;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding:5px 5%;
+  padding-top: 10px;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  padding-left: 5%;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: mid;
+  padding-left: 5%;
+
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+a {
+  color: #00B295;
+  margin-top: 10px;
+  display: block;
+  padding-left: 5%;
+  font-size: 19px;
+}
+
+.titlecss {
+  color: black;
+  font-size: 17px;
+}
+
+.welcome-message {
+  padding-top: 10px;
+  font-size: 18px;
+  color: #044389;
+}
+
+#who-h3 {
+  display: block;
+  padding-top: 19px;
+  color: #FF7F00;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.who-desc {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.qltyDesc {
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.footer {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contactImg {
+  width: 25px;
+}
+
+#skillsGlance {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills {
+  width: 25%;
+  margin: 0;
+}
+
+.skill-list {
+  font-size: 14px;
+  color: #333;
+  padding-bottom: 10px;
+  display: list-item;
+}
+
+#whyD {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.onlineEdu {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.eduString {
+   width: 50%;
+   padding-bottom: 10px;
+}
+
+.textColor3 {
+  color: #453E87;
+  font-size: 14px;
+}
+
+.textColor2 {
+  color: #00B295;
+}
+
+.textColor {
+  color: #3B67AE;
+}
+
+.plinks {
+  color: #3B67AE;
+  font-size: 14px;
+  margin-top: 0px;
+  display: inline;
+}
+
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.dark-gray {
+  background-color: #4a4a4a;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contactbk {
+    background-color: #E7E7E7;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.biopic {
+  float: left;
+  padding-right: 20px;
+  width: 200px;
+  display: block;
+  padding-top: 20px;
+}
+
+span {
+  padding: 5px;
+  color: #3E92CC;
+}
+
+.hdrrole{
+    padding-left: 2%;
+    color: #3E92CC;
+    font-size: 20px;
+}
+
+.connect-foot {
+  background-color: #E7E7E7;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.letsConnect {
+  text-align: left;
+}
+
+#map {
+  height: 75%;
+  width :50%;
+  margin-right:auto;
+  padding-left: 5%;
+}
+
+#map-div {
+  height: 400px;
+  width: 600px;
+  margin-left: 5%;
+  margin-right:auto;
+}
+
+mark {
+    background-color: transparent;
+    text-decoration: underline;
+    color: #37B0CE;
+  }
+
+em {
+  padding-left: 5%;
+}
+
+.urls{
+  font-style: italic;
+  font-size: 14px;
+  color: #3B67AE;
+}
+
+.top {
+  font-style: italic;
+  font-size: 14px;
+  color: #2840E2;
+  text-align: right;
+  float: right;
+  padding-right: 5%;
+  width: 100%;
+}

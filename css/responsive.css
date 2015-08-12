@@ -1,0 +1,138 @@
+.header__menu,
+.nav {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  #header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hdrrole {
+    font-size: 18px;
+    width:100%;
+    padding: 0;
+  }
+
+  .hdrtitle {
+    width: 100%;
+    max-width: 200px;
+    display: inline;
+  }
+
+  .nav {
+    z-index: 10;
+    background-color: #fff;
+    width: 200px;
+    position: absolute;
+    display: inline;
+    -webkit-transform: translate(-500px, 0);
+    transform: translate(-500px, 0);
+    transition: transform 1s ease;
+  }
+
+  .nav.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  .nav__item {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+    width: 100%;
+    text-align: left;
+    padding: 0px;
+  }
+
+  .header__menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 1em;
+  }
+
+  .header__menu svg {
+    width: 32px;
+    fill: #E0E0E0;
+  }
+
+  .contactbk {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 13px;
+    justify-content: flex-start;
+  }
+
+  .plinks,
+  .textColor,
+  .textColor3,
+  p,
+  .date-text,
+  .location-text
+   {
+    font-size: 14px;
+
+  }
+
+  h3, h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    padding-left: 0px;
+  }
+
+  a, .titlecss {
+    font-size: 16px;
+  }
+
+  #map-div {
+    max-width: 100%
+  }
+
+  .skills,
+  .eduString {
+    width: 100%;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .skill-list {
+    padding-left: 5%;
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 450px) and (max-width: 576px) {
+  .hdrrole {
+    max-width: 100%;
+    display: block;
+    padding-left: 0;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .biopic {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  html {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
