@@ -4,8 +4,9 @@
   <title>Resume | D</title>
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/responsive.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/jQuery.js"></script>
   <script src="js/helper.js"></script>
+  <script src="js/jQuery.dotdotdot/jquery.dotdotdot.js" type="text/javascript"></script>
   <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
   <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
 </head>
@@ -31,7 +32,7 @@
       <ul id="topContacts" class="flex-box contactbk"></ul>
     </div>
     <div style="clear: both;"></div>
-    <h2 id="prowess">Expertise</h2>
+    <h2 id="prowess">Skills</h2>
     <br>
     <div id="skillsGlance"></div>
     <br>
@@ -59,28 +60,14 @@
     <br>
     <h2>Lets Connect</h2>
     <div class="center-content" id="lets-connect">
-      <!-- <ul id="topContacts" class="flex-box connect-foot"> -->
-      <ul class="flex-box connect-foot">
-        <li class="flex-item">
-          <a target="_blank" href="mailto:dkhabiya@gmail.com">
-            <img class="contactImg" src="images/email_icon.png" alt="Email">
-          </a>
-        </li>
-        <li class="flex-item">
-          <a href="http://in.linkedin.com/pub/divya-khabiya/101/2b8/1ab" onclick="window.open(this.href, this.href); return false">
-            <img class="contactImg" src="images/linkedIn.png" alt="LinkedIn">
-          </a>
-        </li>
-        <li class="flex-item">
-          <a href="http://github.com/dkhabiya" onclick="window.open(this.href, this.href); return false">
-            <img class="contactImg" src="images/GitHub.png" alt="GitHub">
-          </a>
-        </li>
+      <ul id="topContacts" class="flex-box connect-foot">
+        <li class="flex-item"><a target="_blank" href="mailto:dkhabiya@gmail.com"><img class="contactImg" src="images/email_icon.png"></a></li>
+        <li class="flex-item"><a href="http://in.linkedin.com/pub/divya-khabiya/101/2b8/1ab" onclick="window.open(this.href, this.href); return false"><img class="contactImg" src="images/linkedIn.png"></a></li>
+        <li class="flex-item"><a href="http://github.com/dkhabiya" onclick="window.open(this.href, this.href); return false"><img class="contactImg" src="images/GitHub.png"></a></li>
       </ul>
     </div>
     <br>
     <br>
-  </div>
   <script src="js/resumeBuilder.js"></script>
   <script type="text/javascript">
     if(document.getElementsByClassName('flex-item').length === 0) {
