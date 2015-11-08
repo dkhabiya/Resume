@@ -3,10 +3,10 @@ var bio = {
 	"role": "Creative Developer",
 	"contacts" : {
 		"mobile" 	: "+00 1234567890",
-      	"email"  	: "dkhabiya@gmail.com",
-      	"location"	: "Bangalore, India."
-	},
-	"who" : "Hi ! I am Divya, a creative person by nature and a developer by choice.<br> Being a bit of an artist, using visualization to communicate ideas has always been my passion. Web development is a medium through which I want to express myself in a creative way. <br>As a developer, I believe in 'Logic over Language'; learning a language though important, knowing how to logically use is also important.",
+	      	"email"  	: "dkhabiya@gmail.com",
+	      	"location"	: "Bangalore, India."
+		},
+	"who" : "Hey ! I am Divya, a creative person by nature and a developer by choice.<br> Being a bit of an artist, using visualization to communicate ideas has always been my passion. Combining my passion and what I am good at is the dream; being able to express myself in a technically creative way. <br>I believe in the concept of 'Logic over Language'; logic is as important as knowing a language is.",
 };
 
 $("#header").prepend(HTMLheaderRole.replace("%data%",bio.role));
@@ -73,7 +73,7 @@ var work = {
 			"location" 	: "",
 			"title"		: "",
 			"dates"		: "",
-			"desc"		: "• &nbspDeveloped and implemented several critical enhancements to the existing Flexcube Retail banking product as per client requirement. <br>• &nbspAdding/modifying the business logic to the database, tunning up existing queries for better performance, developing new UI's, services and COM packages are a few undertakings that were carried out.<br><br>",
+			"desc"		: "• &nbspDeveloped and implemented several critical enhancements to the existing Flexcube Retail banking product as per client requirement. <br>• &nbspAdding/modifying the business logic to the database, tuning up existing queries for better performance, developing new UI's, services and COM packages are a few undertakings that were carried out.<br><br>",
 		},
 		{
 			"employer" 	: "Saara Systems",
@@ -208,7 +208,7 @@ $("#education").append(HTMLtop);
 var myQualities = {
 	"Vision" 		 : "I regard programming as an art and a medium of creativity. I'm the stimulant that blends ideas and concepts to find the best way to realize a project.",
 	"Problem-solver" : "I don't believe in development without purpose. I see myself playing a role in solving problems that improve the human experience with technology.",
-	"Proactive"		 : "I believe that leanring and experiencing never end. I look for opportunities where I can improve the product and myself to achieve the best for both.",
+	"Proactive"		 : "I believe that learning and experiencing never end. I look for opportunities where I can improve the product and myself to achieve the best for both.",
 	"Adaptive"	 	 : "I love experimenting with new technology and getting into the nitty gritty of how things work. I am flexible working with ideas I have not tried before.",
 	"Collaborative"  : "I have high regards for team building, I work exceptionally well across all key functional areas including development, support and customer service.",
 	"Ambitious"		 : "I'm always looking for opportunities and aren’t afraid to take risks for the sake of making things better."
