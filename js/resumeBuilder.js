@@ -2,9 +2,9 @@ var bio = {
 	"name": "Divya Khabiya",
 	"role": "Creative Developer",
 	"contacts" : {
-		"mobile" 	: "+00 1234567890",
+		"mobile" 	: "+1 773 980 0226",
 	      	"email"  	: "dkhabiya@gmail.com",
-	      	"location"	: "Bangalore, India."
+	      	"location"	: "Chicago, Illinois."
 		},
 	"who" : "Hey ! I am Divya, a creative person by nature and a developer by choice.<br> Being a bit of an artist, using visualization to communicate ideas has always been my passion. Combining my passion and what I am good at is the dream; being able to express myself in a technically creative way. <br>I believe in the concept of 'Logic over Language'; logic is as important as knowing a language is.",
 };
@@ -18,9 +18,9 @@ $("#topContacts").append(HTMLemail.replace("%data%",bio.contacts.email));
 $("#topContacts").append(HTMLlocation.replace("%data%",bio.contacts.location));
 
 var skills = {
-	"Languages" 		: ["C","C++", "Visual Basic", "PL/SQL", "Java (API programming)"],
-	"Web References"	: ["HTML/CSS", "JavaScript", "XSL/XSLT"],
-	"Tools" 			: ["Microsoft Visual Studio", "Eclipse IDE", "Flexcube Retail", "Seagate Crystal Reports", "Microsoft Office", "LabVIEW", "Adobe (Dreamweaver, Premier, After Effects & Audition)"],
+	"Languages" 		: ["C++", "Visual Basic", "PL/SQL", "Java (API programming)"],
+	"Web References"	: ["HTML/CSS", "JavaScript", "XSL/XSLT", "PHP"],
+	"Tools" 			: ["Microsoft Visual Studio", "Eclipse IDE", "NetBeans", "Flexcube Retail", "Seagate Crystal Reports", "Microsoft Office", "LabVIEW", "Adobe (Dreamweaver, Premier, After Effects & Audition)"],
 	"Web Servers" 		: ["Apache Tomcat", "IIS"],
 	"Source Control" 	: ["GitHub", "Microsoft SourceSafe"]
 };
@@ -41,10 +41,17 @@ $("#workExperience").append(HTMLworkStart);
 var work = {
 "jobs" : [
 		{
+			"employer" 	: "Office Of Technology Services Support Desk",
+			"location" 	: "Chicago, Illinois.",
+			"title"		: "Student Assistant",
+			"dates"		: "Sep, 2016 - Present.",
+			"desc"		: "The OTS Support Desk is the central point of contact for technology support at IIT. Support Desk staff provide technical problem-solving and administrative support for all IIT students, faculty and staff. Services include troubleshooting, account management, and configuration assistance.",
+		},
+		{
 			"employer" 	: "Oracle Financial Services Software Ltd..",
 			"location" 	: "Bangalore, India.",
 			"title"		: "Staff Consultant",
-			"dates"		: "Banking Products Division.<br>Oct, 2010 - Present.",
+			"dates"		: "Banking Products Division.<br>Oct, 2010 - May, 2016.",
 			"desc"		: "Flexcube Retail is banking solution; it has a frontend UI which is created using HTML, CSS, XSL and JavaScripts called Host Menus. This UI enables a user to carry out various financial and customer maintenance transactions, that are stored in the database. Microsoft Visual Studio tools are used to connect the frontend and database. This entire setup has multiple services and COM packages to make these complex units work together.<br><br><mark> Responsibilities </mark> <br>• &nbspCustomer needs assessment <br>• &nbspRequirement gathering and analysis<br>• &nbspProduct enhancement and optimization <br>• &nbspDesign, development, testing, implementation and support <br>• &nbspQuality control and assurance <br>• &nbspSystem documentation<br><br> I have had the opportunity to work directly with the client, understand their needs and fullfill them to the best of my abilities. Worked for several financial institutions  – Shinsei Bank, Japan; Canara Bank, Syndicate Bank & Laxmi Vilas Bank, India.",
 		},
 		{
@@ -177,12 +184,19 @@ $("#education").append(HTMLschoolStart);
 var education = {
 	"schools" :	[
 					{
+						"name" 		: "Illinois Institute of Technology",
+						"location" 	: "Chicago, Illinois.",
+						"degree" 	: "Master Of Science",
+						"majors" 	: "Information Technology Management - Web Design and Application Development",
+						"dates" 	: "Aug, 2006 - Jul, 2010"
+					},
+					{
 						"name" 		: "Visvesvaraya Technological University",
 						"location" 	: "Bangalore, India.",
 						"degree" 	: "Bachelor Of Engineering",
 						"majors" 	: "Information Science",
-						"dates" 	: "Aug, 2006 - Jul, 2010"
-					},
+						"dates" 	: "Aug, 2016 - May, 2018"
+					}
 				],
 
 	"show" : function(pkey)
