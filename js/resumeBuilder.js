@@ -188,14 +188,14 @@ var education = {
 						"location" 	: "Chicago, Illinois.",
 						"degree" 	: "Master Of Science",
 						"majors" 	: "Information Technology Management - Web Design and Application Development",
-						"dates" 	: "Aug, 2006 - Jul, 2010"
+						"dates" 	: "Aug, 2016 - May, 2018"
 					},
 					{
 						"name" 		: "Visvesvaraya Technological University",
 						"location" 	: "Bangalore, India.",
 						"degree" 	: "Bachelor Of Engineering",
 						"majors" 	: "Information Science",
-						"dates" 	: "Aug, 2016 - May, 2018"
+						"dates" 	: "Aug, 2006 - Jul, 2010"
 					}
 				],
 
@@ -229,7 +229,7 @@ var myQualities = {
 };
 
 for (var x in myQualities) {
-	var qltyString = [HTMLqualityType.replace("%data%",x)]
+	var qltyString = [HTMLqualityType.replace("%data%",x)];
 	qltyString = qltyString + HTMLqualityDesc.replace("%data%",myQualities[x]);
 	qltyString = qltyString + "</a>"
 	$("#whyD").append(qltyString);
