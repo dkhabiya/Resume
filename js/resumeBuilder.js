@@ -20,7 +20,7 @@ $("#topContacts").append(HTMLlocation.replace("%data%",bio.contacts.location));
 var skills = {
 	"Languages" 		: ["C++", "Visual Basic", "PL/SQL", "Java (API programming)"],
 	"Web References"	: ["HTML/CSS", "JavaScript", "XSL/XSLT", "PHP"],
-	"Tools" 			: ["Microsoft Visual Studio", "Eclipse IDE", "NetBeans", "Flexcube Retail", "Seagate Crystal Reports", "Microsoft Office", "LabVIEW", "Adobe (Dreamweaver, Premier, After Effects & Audition)"],
+	"Tools" 			: ["Microsoft Visual Studio", "Eclipse IDE", "NetBeans", "Flexcube Retail", "Seagate Crystal Reports", "Microsoft Office"],
 	"Web Servers" 		: ["Apache Tomcat", "IIS"],
 	"Source Control" 	: ["GitHub", "Microsoft SourceSafe"]
 };
@@ -229,7 +229,7 @@ var myQualities = {
 };
 
 for (var x in myQualities) {
-	var qltyString = [HTMLqualityType.replace("%data%",x)];
+	var qltyString = [HTMLqualityType.replace("%data%",x)]
 	qltyString = qltyString + HTMLqualityDesc.replace("%data%",myQualities[x]);
 	qltyString = qltyString + "</a>"
 	$("#whyD").append(qltyString);
