@@ -1,9 +1,9 @@
 var bio = {
 	"name": "Divya Khabiya",
-	"role": "Creative Developer",
+	"role": "Application Developer",
 	"contacts" : {
-		"mobile" 	: "+1 773 980 0226",
-	      	"email"  	: "dkhabiya@gmail.com",
+		"mobile" 	: "",
+	      	"email"  	: "",
 	      	"location"	: "Chicago, Illinois."
 		},
 	"who" : "Hey ! I am Divya, a creative person by nature and a developer by choice.<br> Being a bit of an artist, using visualization to communicate ideas has always been my passion. Combining my passion and what I am good at is the dream; being able to express myself in a technically creative way. <br>I believe in the concept of 'Logic over Language'; logic is as important as knowing a language is.",
@@ -18,10 +18,10 @@ $("#topContacts").append(HTMLemail.replace("%data%",bio.contacts.email));
 $("#topContacts").append(HTMLlocation.replace("%data%",bio.contacts.location));
 
 var skills = {
-	"Languages" 		: ["C++", "Visual Basic", "PL/SQL", "Java (API programming)"],
-	"Web References"	: ["HTML/CSS", "JavaScript", "XSL/XSLT", "PHP"],
-	"Tools" 			: ["Microsoft Visual Studio", "Eclipse IDE", "NetBeans", "Flexcube Retail", "Seagate Crystal Reports", "Microsoft Office"],
-	"Web Servers" 		: ["Apache Tomcat", "IIS"],
+	"Languages" 		: ["Java"],
+	"Web References"	: ["HTML/CSS", "TypeScript", "JavaScript", "jQuery", "Node", "Express", "Bootstrap/SemanticUI"],
+	"Database" 		: ["PL/SQL", "MongoDB"],
+	"Tools" 		: ["Visual Studio", "Eclipse IDE", "SVN/Git", "JIRA/Footprints", "Code Editors"],
 	"Source Control" 	: ["GitHub", "Microsoft SourceSafe"]
 };
 
@@ -50,7 +50,7 @@ var work = {
 		{
 			"employer" 	: "Oracle Financial Services Software Ltd..",
 			"location" 	: "Bangalore, India.",
-			"title"		: "Staff Consultant",
+			"title"		: "Senior Consultant",
 			"dates"		: "Banking Products Division.<br>Oct, 2010 - May, 2016.",
 			"desc"		: "Flexcube Retail is banking solution; it has a frontend UI which is created using HTML, CSS, XSL and JavaScripts called Host Menus. This UI enables a user to carry out various financial and customer maintenance transactions, that are stored in the database. Microsoft Visual Studio tools are used to connect the frontend and database. This entire setup has multiple services and COM packages to make these complex units work together.<br><br><mark> Responsibilities </mark> <br>• &nbspCustomer needs assessment <br>• &nbspRequirement gathering and analysis<br>• &nbspProduct enhancement and optimization <br>• &nbspDesign, development, testing, implementation and support <br>• &nbspQuality control and assurance <br>• &nbspSystem documentation<br><br> I have had the opportunity to work directly with the client, understand their needs and fullfill them to the best of my abilities. Worked for several financial institutions  – Shinsei Bank, Japan; Canara Bank, Syndicate Bank & Laxmi Vilas Bank, India.",
 		},
@@ -118,6 +118,11 @@ var projects = {
 			"date"	: "",
 			"title"	: "",
 			"desc" 	: "Over the period of my career as a developer I have worked on several projects, a few have been listed below."
+		},
+		{
+			"date"	: "Self",
+			"title"	: "FatRat - Virtual Video Jukebox",
+			"desc" 	: ""
 		},
 		{
 			"date"	: "Yes Bank Limited, India.",
