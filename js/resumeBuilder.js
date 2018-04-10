@@ -2,8 +2,8 @@ var bio = {
 	"name": "Divya Khabiya",
 	"role": "Application Developer",
 	"contacts" : {
-		"mobile" 	: "",
-	      	"email"  	: "",
+		"mobile" 	: "123456789",
+	      	"email"  	: "aa@aa.com",
 	      	"location"	: "Chicago, Illinois."
 		},
 	"who" : "Hey ! I am Divya, a creative person by nature and a developer by choice.<br> Being a bit of an artist, using visualization to communicate ideas has always been my passion. Combining my passion and what I am good at is the dream; being able to express myself in a technically creative way. <br>I believe in the concept of 'Logic over Language'; logic is as important as knowing a language is.",
@@ -58,7 +58,7 @@ var work = {
 			"employer" 	: "Onsite Experience",
 			"location" 	: "Tokyo, Japan.",
 			"title"		: "Shinsei Bank - Onsite Developer/Consultant",
-			"dates"		: "December, 2012 - January, 2015",
+			"dates"		: "December, 2012 - December, 2014",
 			"desc"		: ""
 		},
 		{
@@ -122,7 +122,7 @@ var projects = {
 		{
 			"date"	: "Self",
 			"title"	: "Event Emitter",
-			"desc" 	: ""
+			"desc" 	: "A library that enables you to trigger events based on actions.  It creates listners with an array of callbacks i.e., an object with key value pairs of events and handlers subscribed to the event."
 		},
 		{
 			"date"	: "Self",
