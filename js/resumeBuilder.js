@@ -21,8 +21,8 @@ var skills = {
 	"Languages" 		: ["Java"],
 	"Web References"	: ["HTML/CSS", "TypeScript", "JavaScript", "jQuery", "Node", "Express", "Bootstrap/SemanticUI"],
 	"Database" 		: ["PL/SQL", "MongoDB"],
-	"Tools" 		: ["Visual Studio", "Eclipse IDE", "SVN/Git", "JIRA/Footprints", "Code Editors"],
-	"Source Control" 	: ["GitHub", "Microsoft SourceSafe"]
+	"Tools" 		: ["Visual Studio", "Eclipse IDE", "JIRA/Footprints", "Code Editors"],
+	"Source Control" 	: ["GitHub", "SVN"]
 };
 
 for (var x in skills) {
@@ -43,7 +43,7 @@ var work = {
 		{
 			"employer" 	: "Office Of Technology Services Support Desk",
 			"location" 	: "Chicago, Illinois.",
-			"title"		: "Student Assistant",
+			"title"		: "Student Lead",
 			"dates"		: "Sep, 2016 - Present.",
 			"desc"		: "The OTS Support Desk is the central point of contact for technology support at IIT. Support Desk staff provide technical problem-solving and administrative support for all IIT students, faculty and staff. Services include troubleshooting, account management, and configuration assistance.",
 		},
@@ -121,8 +121,18 @@ var projects = {
 		},
 		{
 			"date"	: "Self",
-			"title"	: "FatRat - Virtual Video Jukebox",
+			"title"	: "Event Emitter",
 			"desc" 	: ""
+		},
+		{
+			"date"	: "Self",
+			"title"	: "FatRat - Virtual Video Jukebox",
+			"desc" 	: "A virtual video jukebox application; to crowdsource music requests for a social gathering. With real time updates to the playlist when the event is ongoing."
+		},
+		{
+			"date"	: "Self",
+			"title"	: "Gastronome",
+			"desc" 	: "A food blog created using Node, Express and MongoDB with Semantic UI. This blog uses all 7 routes of the RESTful API architecture so show the awesomeness of food."
 		},
 		{
 			"date"	: "Yes Bank Limited, India.",
